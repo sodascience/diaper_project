@@ -1,0 +1,132 @@
+#Lists with file paths that will be used by preprocessing scripts
+#Source file before running the preprocessing steps
+PATHS = list(
+  KOPPELHH = list(
+    "2010" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\Koppeltabel_IPI_IHI_IVB2010.sav",
+    "2011" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2011.sav",
+    "2012" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2012.sav",
+    "2013" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2013.sav",
+    "2014" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2014.sav",
+    "2015" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2015.sav",
+    "2016" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2016.sav",
+    "2017" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2017.sav",
+    "2018" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2018.sav",
+    "2019" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2019V2.sav",
+    "2020" = "G:\\InkomenBestedingen\\KOPPELPERSOONHUISHOUDEN\\KOPPELPERSOONHUISHOUDEN2020V2.sav"
+  ),
+  INHA = list(
+    "2011" = "G:/InkomenBestedingen/INHATAB/INHA2011TABV2.sav",
+    "2012" = "G:/InkomenBestedingen/INHATAB/INHA2012TABV2.sav",
+    "2013" = "G:/InkomenBestedingen/INHATAB/INHA2013TABV2.sav",
+    "2014" = "G:/InkomenBestedingen/INHATAB/INHA2014TABV1.sav",
+    "2015" = "G:/InkomenBestedingen/INHATAB/INHA2015TABV1.sav",
+    "2016" = "G:/InkomenBestedingen/INHATAB/INHA2016TABV2.sav",
+    "2017" = "G:/InkomenBestedingen/INHATAB/INHA2017TABV2.sav",
+    "2018" = "G:/InkomenBestedingen/INHATAB/INHA2018TABV2.sav",
+    "2019" = "G:/InkomenBestedingen/INHATAB/INHA2019TABV2.sav", 
+    "2020" = "G:/InkomenBestedingen/INHATAB/INHA2020TABV2.sav"
+  ),
+  GEMON_12 = "G:/GezondheidWelzijn/GEMON/2012/GEMON2012V5.sav",
+  GEMON_16 = "G:/GezondheidWelzijn/GEMON/2016/GEZOMONITOR2016V2.sav",
+  GEMON_20 = "G:/GezondheidWelzijn/GEMON/2020/GEMON2020V2.sav",
+  VEH = list(
+    "2010" = "G:/InkomenBestedingen/VEHTAB/VEH2010TABV3.sav",
+    "2011" = "G:/InkomenBestedingen/VEHTAB/VEH2011TABV2.sav",
+    "2012" = "G:/InkomenBestedingen/VEHTAB/VEH2012TABV2.sav",
+    "2013" = "G:/InkomenBestedingen/VEHTAB/VEH2013TABV2.sav",
+    "2014" = "G:/InkomenBestedingen/VEHTAB/VEH2014TABV2.sav",
+    "2015" = "G:/InkomenBestedingen/VEHTAB/VEH2015TABV2.sav",
+    "2016" = "G:/InkomenBestedingen/VEHTAB/VEH2016TABV3.sav",
+    "2017" = "G:/InkomenBestedingen/VEHTAB/VEH2017TABV3.sav",
+    "2018" = "G:/InkomenBestedingen/VEHTAB/VEH2018TABV3.sav",
+    "2019" = "G:/InkomenBestedingen/VEHTAB/VEH2019TABV4.sav", 
+    "2020" = "G:/InkomenBestedingen/VEHTAB/VEH2020TABV3.sav"
+  ),
+  GBAH = "G:/Bevolking/GBAHUISHOUDENSBUS/GBAHUISHOUDENS2020BUSV1.sav",
+  GBAP = list(
+    "2010" = "G:/Bevolking/GBAPERSOONTAB/2010/GBAPERSOON2010TABV1.sav",
+    "2011" = "G:/Bevolking/GBAPERSOONTAB/2011/GBAPERSOON2011TABV1.sav",
+    "2012" = "G:/Bevolking/GBAPERSOONTAB/2012/GBAPERSOON2012TABV1.sav",
+    "2013" = "G:/Bevolking/GBAPERSOONTAB/2013/GBAPERSOON2013TABV1.sav",
+    "2014" = "G:/Bevolking/GBAPERSOONTAB/2014/GBAPERSOON2014TABV1.sav",
+    "2015" = "G:/Bevolking/GBAPERSOONTAB/2015/GBAPERSOON2015TABV1.sav",
+    "2016" = "G:/Bevolking/GBAPERSOONTAB/2016/GBAPERSOONTAB2016V1.sav",
+    "2017" = "G:/Bevolking/GBAPERSOONTAB/2017/GBAPERSOON2017TABV1.sav",
+    "2018" = "G:/Bevolking/GBAPERSOONTAB/2018/GBAPERSOON2018TABV2.sav",
+    "2019" = "G:/Bevolking/GBAPERSOONTAB/2019/GBAPERSOON2019TABV1.sav", 
+    "2020" = "G:/Bevolking/GBAPERSOONTAB/2020/GBAPERSOON2020TABV3.sav"
+  ),
+  MED = list(
+    "2010" = "G:/GezondheidWelzijn/MEDICIJNTAB/2010/130614 MEDICIJNTAB 2010V1.sav",
+    "2011" = "G:/GezondheidWelzijn/MEDICIJNTAB/2011/130614 MEDICIJNTAB 2011V1.sav",
+    "2012" = "G:/GezondheidWelzijn/MEDICIJNTAB/2012/140224 MEDICIJNTAB 2012V1.sav",
+    "2013" = "G:/GezondheidWelzijn/MEDICIJNTAB/2013/MEDICIJNTAB 2013V1.sav",
+    "2014" = "G:/GezondheidWelzijn/MEDICIJNTAB/2014/MEDICIJN2014TABV1.sav",
+    "2015" = "G:/GezondheidWelzijn/MEDICIJNTAB/2015/MEDICIJN2015TABV1.sav",
+    "2016" = "G:/GezondheidWelzijn/MEDICIJNTAB/2016/MEDICIJN2016TABV1.sav",
+    "2017" = "G:/GezondheidWelzijn/MEDICIJNTAB/2017/MEDICIJN2017TABV1.sav",
+    "2018" = "G:/GezondheidWelzijn/MEDICIJNTAB/2018/MEDICIJN2018TABV1.sav",
+    "2019" = "G:/GezondheidWelzijn/MEDICIJNTAB/2019/MEDICIJN2019TABV1.sav", 
+    "2020" = "G:/GezondheidWelzijn/MEDICIJNTAB/2020/MEDICIJN2020TABV2.sav"
+  ),
+  DIAG = list(
+    "2015" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2015TABV1.sav",
+    "2016" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2016TABV1.sav",
+    "2017" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2017TABV2.sav",
+    "2018" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2018TABV3.sav",
+    "2019" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2019TABV3.sav", 
+    "2020" = "G:/GezondheidWelzijn/GGZDBCDIAGNOSEHOOFDDIAGTAB/GGZDBCdiagnoseHOOFDDIAG2020TABV2.sav"
+  ),
+  OPL = list(
+    "2013" = "G:/Onderwijs/HOOGSTEOPLTAB/2013/HOOGSTEOPL2013TABV3.sav",
+    "2014" = "G:/Onderwijs/HOOGSTEOPLTAB/2014/HOOGSTEOPL2014TABV3.sav",
+    "2015" = "G:/Onderwijs/HOOGSTEOPLTAB/2015/HOOGSTEOPL2015TABV3.sav",
+    "2016" = "G:/Onderwijs/HOOGSTEOPLTAB/2016/HOOGSTEOPL2016TABV2.sav",
+    "2017" = "G:/Onderwijs/HOOGSTEOPLTAB/2017/HOOGSTEOPL2017TABV3.sav",
+    "2018" = "G:/Onderwijs/HOOGSTEOPLTAB/2018/HOOGSTEOPL2018TABV3.sav" 
+  ),
+  OPL_19 = "G:/Onderwijs/HOOGSTEOPLTAB/2019/HOOGSTEOPL2019TABV2.sav",
+  OPL_20 = "G:/Onderwijs/HOOGSTEOPLTAB/2020/HOOGSTEOPL2020TABV2.sav",
+  PCODE = "G:/BouwenWonen/VSLPOSTCODEBUS/VSLPOSTCODEBUSV2024031.sav",
+  ZORGK = list(
+    "2010" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2010/ZVWZORGKOSTEN2010TABV1.sav",
+    "2011" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2011/ZVWZORGKOSTEN2011TABV1.sav",
+    "2012" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2012/ZVWZORGKOSTEN2012TABV1.sav",
+    "2013" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2013/ZVWZORGKOSTEN2013TABV1.sav",
+    "2014" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2014/ZVWZORGKOSTEN2014TABV1.sav",
+    "2015" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2015/ZVWZORGKOSTEN2015TABV1.sav",
+    "2016" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2016/ZVWZORGKOSTEN2016TABV1.sav",
+    "2017" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2017/ZVWZORGKOSTEN2017TABV2.sav",
+    "2018" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2018/ZVWZORGKOSTEN2018TABV3.sav",
+    "2019" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2019/ZVWZORGKOSTEN2019TABV2.sav", 
+    "2020" = "G:/GezondheidWelzijn/ZVWZORGKOSTENTAB/2020/ZVWZORGKOSTEN2020TABV2.sav"
+  ),
+  NABZORG = list(
+    "2012" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2012/141201 NABIJHEIDZORGTAB 2012V1.sav",
+    "2013" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2013/NABIJHEIDZORG2013TABV2.sav",
+    "2014" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2014/NABIJHEIDZORG2014TABV2.sav",
+    "2015" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2015/NABIJHEIDZORG2015TABV2.sav",
+    "2016" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2016/NABIJHEIDZORG2016TABV1.sav",
+    "2017" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2017/NABIJHEIDZORG2017TABV1.sav",
+    "2018" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2018/NABIJHEIDZORG2018TABV1.sav",
+    "2019" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2019/NABIJHEIDZORG2019TABV1.sav", 
+    "2020" = "G:/BouwenWonen/NABIJHEIDZORGTAB/2020/NABIJHEIDZORG2020TABV1.sav"
+  ),
+  GABURG   = "G:/Bevolking/GBABURGERLIJKESTAATBUS/GBABURGERLIJKESTAAT2023BUSV1.sav",
+  SECM     = "G:/InkomenBestedingen/SECMBUS/SECMBUS2022V1.sav",
+  POSTCODE = "G:/BouwenWonen/VSLPOSTCODEBUS/VSLPOSTCODEBUSV2024031.sav",
+  ADDRESS  = "G:/Bevolking/GBAADRESOBJECTBUS/GBAADRESOBJECT2020BUSV1.sav"
+  
+)
+
+#Flatten list and check if files exist 
+flat_paths <- unlist(PATHS, use.names=FALSE)
+files_exist <- vapply(flat_paths, file.exists, TRUE, USE.NAMES=TRUE)
+if (!all(files_exist)) {
+  stop(
+    "Files not found: \n - ",
+    paste(names(files_exist)[!files_exist], collapse = "\n - "),
+    "\n\nCheck and update the resource location in preprocessing_scripts/00_file_paths.R"
+  )
+}
+rm(flat_paths, files_exist)
