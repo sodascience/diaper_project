@@ -1,9 +1,3 @@
----
-title: "README"
-author: "Nadya Ali"
-format: html
----
-
 ## Data-InfrAstructure for Parents and ChildRen (DIAPER)
 
 Scripts pertaining to data pre-processing and analysis to investigate the role of poverty in maternal and child perinatal health outcomes in the Netherlands.
