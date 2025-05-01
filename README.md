@@ -14,3 +14,11 @@ The '01_preprocessing_scripts' folder contains all the scripts necessary to load
 -   Script 05 is necessary in the case that you are extracting data from longitudinal tables.
 -   The last script '06_cleanup' is specific to the variable processing needed for this project. NB: Income type CBS variables usually need to be processed since they contain negative values for NA. 
 
+
+## Contact
+This project is developed and maintained by the [ODISSEI Social Data Science
+(SoDa)](https://odissei-soda.nl) team.
+
+Do you have questions, suggestions, or remarks? File an issue in the issue
+tracker or feel free to contact [Nadya Ali](https://github.com/NAli42), [Erik-Jan van
+Kesteren](https://github.com/vankesteren), or [Javier Garcia-Bernardo](https://github.com/jgarciab)
